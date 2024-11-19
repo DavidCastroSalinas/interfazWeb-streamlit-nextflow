@@ -10,16 +10,26 @@ dentro coloque lo siguiente:
 URL_APP = "http://localhost:8501"
 
 FROM_EMAIL = "mi@gmail.com"
-FROM_PASSWORD = "" #password de aplicación de windows
-FROM_CLAVE = ""
-API_KEY = "api_key_secreta"
-DB_HOST = "localhost"
-DB_USER = "user"
-DB_PASSWORD = "password"
-NF_PATH = "/home/dabits/mobhunter/nextflow/" #personalice esta ruta
-NF_APP = "main.nf"
-NF_data_folder = "data"
-NF_output_folder = "data/output"
-NF_status_folder = "data/status"
 
+FROM_PASSWORD = "" #password de aplicación de windows
+
+FROM_CLAVE = ""
+
+API_KEY = "api_key_secreta"
+
+DB_HOST = "localhost"
+
+DB_USER = "user"
+
+DB_PASSWORD = "password"
+
+NF_PATH = "/home/dabits/mobhunter/nextflow/" #personalice esta ruta
+
+NF_APP = "main.nf"
+
+NF_data_folder = "data"
+
+NF_output_folder = "data/output"
+
+NF_status_folder = "data/status"
 
