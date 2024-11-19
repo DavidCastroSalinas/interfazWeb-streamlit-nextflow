@@ -3,10 +3,12 @@
 considere utilizar el archivo secrets
 
 cree una carpeta dentro de la carpeta de de STREAMLIT llamada .streamlit/ y dentro de ella cree un archivo llamado secrets.homl
-dentro coloque lo siguinte:
+dentro coloque lo siguiente:
 
 # secrets.toml
+
 URL_APP = "http://localhost:8501"
+
 FROM_EMAIL = "mi@gmail.com"
 FROM_PASSWORD = "" #password de aplicación de windows
 FROM_CLAVE = ""
